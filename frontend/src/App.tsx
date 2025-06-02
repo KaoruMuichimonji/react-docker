@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import brownLogo from './assets/brown.svg'
 import './App.css'
 
 function App() {
@@ -14,9 +15,12 @@ function App() {
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
+        </a><br />
+        <a href="https://www.line.me/ja/" target="_blank">
+          <img src={brownLogo} className="logo brown" alt="Brown logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Vite + React<br />Hello World!<br />2025/06/01</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
