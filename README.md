@@ -8,4 +8,4 @@ docker compose build
 docker compose run app
 ```
 # webページ表示
-実環境のブラウザで http://localhost:5173 にアクセス
+コンテナ起動後ターミナルに表示される「Network」アドレスに実環境のブラウザでアクセス
